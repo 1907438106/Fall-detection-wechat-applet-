@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "pages/device/device",
+    "pages/unlink/unlink",
+    "pages/myhome/myhome",
+    "pages/pwd/pwd",
+    "pages/location/location",
+    "pages/regDev/regDev",
+    "pages/comment/comment",
+    "pages/abnormal/abnormal"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/device/device",
+        "iconPath": "static/device.png",
+        "selectedIconPath": "static/select_device.png",
+        "text": "设备状态"
+      },
+      {
+        "pagePath": "pages/location/location",
+        "iconPath": "static/location.png",
+        "selectedIconPath": "static/select_location.png",
+        "text": "设备当前位置"
+      },
+      {
+        "pagePath": "pages/myhome/myhome",
+        "iconPath": "static/myhome.png",
+        "selectedIconPath": "static/select_myhome.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

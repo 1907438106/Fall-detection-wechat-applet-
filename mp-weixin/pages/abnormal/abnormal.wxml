@@ -1,0 +1,1 @@
+<view><view class="top"><view class="abnormal_font">异常情况</view></view><view><image class="abnormal_imag" src="{{photo}}" mode="scaleToFill"></image></view><view><button class="btn-dele" type="warn" data-event-opts="{{[['tap',[['deleMessage',['$event']]]]]}}" bindtap="__e">删除异常信息</button></view></view>

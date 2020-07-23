@@ -1,0 +1,1 @@
+.flex{display:-webkit-box;display:-webkit-flex;display:flex}.justbetween{margin:20rpx 10rpx}.icon-image{width:70rpx;height:60rpx}.col{margin-left:5rpx}

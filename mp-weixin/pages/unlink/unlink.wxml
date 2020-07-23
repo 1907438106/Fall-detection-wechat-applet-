@@ -1,0 +1,1 @@
+<view><view class="button"><button type="primary" data-event-opts="{{[['tap',[['unlink',['$event']]]]]}}" bindtap="__e">解绑设备</button></view></view>
